@@ -1,0 +1,130 @@
+\documentclass[10pt,a4paper,ragged2e]{altacv}
+\usepackage{hyperref}
+
+
+\geometry{left=1cm,right=9cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1.25cm,bottom=1.25cm}
+
+\ifxetexorluatex
+  \setmainfont{Lato}
+\else
+  \usepackage[utf8]{inputenc}
+  \usepackage[T1]{fontenc}
+  \usepackage[default]{lato}
+\fi
+
+\definecolor{VividPurple}{HTML}{3E0097}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{heading}{VividPurple}
+\colorlet{accent}{VividPurple}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+\begin{document}
+\name{Thuy Trinh Nguyen}
+\tagline{Junior Business/Data Analyst}
+
+\photo{2.5cm}{photo.jpg}
+\personalinfo{
+ \mailaddress{thuytrinhnguyen9@gmail.com}
+ \phone{04 5228 0034}
+ \location{Belmore 2192, NSW}
+ \linkedin{linkedin.com/in/thuy-trinh-nguyen-33869b13a}
+ \github{gitlab.com/thuytrinhnguyen9} % I'm just making this up though.
+}
+
+\begin{fullwidth}
+\makecvheader
+\end{fullwidth}
+
+\AtBeginEnvironment{itemize}{\small}
+
+\cvsection[page1sidebar]{Projects}
+
+\cvevent{Mr. Bill Mini Game}{}{May 2019}{\href{https://gitlab.com/thuytrinhnguyen9/mr_bill}{Source on Gitlab}}
+\begin{itemize}
+\item An under the sea themed mini game in which the character - Mr. Bill has to hit a set of balls into the basket using his hat while trying to avoid toxic eggs from the Jellyfish Boss
+\item Technologies: Processing 3.0 | Java
+\end{itemize}
+
+\divider
+
+\cvevent{Statistics 270 - Linear Regression}{}{May 2019}{\href{https://gitlab.com/thuytrinhnguyen9/stat270-linear-regression}{Source on Gitlab}}
+\begin{itemize}
+\item Applying Linear Regression to predict the sea ice level of Atlantic Ocean
+\item Applying Multiple Linear Regression to identify how different factors affect the wine quality
+\item Technologies: R | Markdown
+\end{itemize}
+
+\divider
+
+\cvevent{This Resume}{}{Aug 2019}{\href{https://gitlab.com/thuytrinhnguyen9/resume}{Source on Gitlab}}
+\begin{itemize}
+	\item This resume written in LaTeX
+	\item Technologies: TeXstudio | LaTeX
+\end{itemize}
+
+
+\cvsection{Other Experience}
+
+\cvevent{Technical Advisor}{UAVS Start-up Challenge 2019}{Jun 2019 - On going}{Sydney}
+\begin{itemize}
+	\item Structured the 3-round format and rubrics with {\href{https://svf.org.vn/}{Start-up Vietnam Foundation}} 
+	\item Planned a Lean Canvas training workshop for 80+ attendees
+	\item Prepared sets of case studies and Q\&A questions for the Finale whose total prize worths \$10,000
+\end{itemize}
+
+\divider
+
+\cvevent{Student Support Department - Media Teamlead}{The United Associations of Vietnamese Students in New South Wales}{March 2019 - On going}{Sydney}
+\begin{itemize}
+	\item Managed a 5-member team to deliver inforgraphics and videos every week for 03 months 
+	\item Increased the organization Facebook group size by 600+ members/05 months
+	\item Monitored the Facebook group activities of 1200+ members
+	\item Wrote script and directed a {\href{https://www.facebook.com/uavsnsw/videos/433640800560301/}{start-up motivational video}} with 2,000+ views
+\end{itemize}
+
+\divider
+
+\cvevent{Intern Leader}{Tien Thinh Immigration Company}{Nov 2018 - Feb 2019}{Sydney}
+\begin{itemize}
+	\item Allocated tasks and supervised a 5-member group of interns
+	\item Researched and conducted a system proposal for an Asian Supermarket project (including the recommended POS, accounting software, etc.)
+\end{itemize}
+
+
+\cvevent{Teamlead}{Global Volunteering Day 2018}{Mar - Jun 2018}{Vietnam}
+\begin{itemize}
+	\item Participated with 1,000+ participants from 30+ countries
+	\item Hosted Mexican booth serving F\&B and games for 500+ participants
+\end{itemize}
+
+\divider
+
+\cvevent{Vietnamese Representative}{APEC Youth Forum - Voices of the Future}{Sep - Nov 2017}{Vietnam}
+\begin{itemize}
+	\item Contributed to APEC Youth Declaration with 20 nation representatives
+	\item Actively contributed to 05 conferences during APEC Leader's Week
+\end{itemize}
+
+\divider
+
+\cvevent{External Relation Intern}{Foreign Trade University - Incubator}{Dec 2016 - Jul 2017}{Vietnam}
+\begin{itemize}
+	\item Maintained and developed national and international partnerships with 10+ partners
+	\item Built a masterplan for the Incubator Japn and Korea training trips 
+\end{itemize}
+
+\divider
+
+\cvevent{External Relation Officer}{Tomorrow Entrepreneur Club - Foreign Trade University}{Oct 2015 - Mar 2017}{Vietnam}
+\begin{itemize}
+	\item Maintained and developed partnership with 20+ key partners
+	\item Prepared 15+ reports for weekly meetings
+	\item Liaised with 50+ enterprise partners and business people over the years
+\end{itemize}
+
+\end{document}
